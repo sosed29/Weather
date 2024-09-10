@@ -1,0 +1,38 @@
+.App {
+  background-image: url('./img/Weather.jpg');
+  margin: 0 auto;
+  min-height: 100vh;
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  
+}
+
+
+
+.search-bar {
+  margin: 20px 0;
+}
+
+.search-bar input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.weather-display {
+  margin-top: 20px;
+}
+.warning {
+  color: red;
+  margin-top: 10px;
+}
